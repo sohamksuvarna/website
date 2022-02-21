@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background-color: #e0ecff;
+        color: #000;
+    }
+
+    ::-moz-selection {
+        background-color: #9ab4ed;
+    }
+
+    ::selection {
+        background-color: #9ab4ed;
+    }
+}
